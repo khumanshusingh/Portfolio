@@ -77,8 +77,8 @@ span:hover {
 @media (max-width: 760px) {
   .projects {
     margin-top: 4rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-bottom: 2rem;
   }
   .projects h1 {
@@ -92,8 +92,8 @@ span:hover {
   }
   .project-cards {
     margin-top: 4rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-bottom: 2rem;
   }
 }

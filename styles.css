@@ -85,8 +85,8 @@ body {
 @media (max-width: 760px) {
   .hero {
     margin-top: 4rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-bottom: 2rem;
   }
   .hero h1 {

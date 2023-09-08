@@ -63,11 +63,13 @@
   background-color: #2dba4e;
   color: #ffffff;
   font-weight: 700;
+  border: none;
 }
 #project-cta-deployment {
   background-color: rgb(88, 166, 255);
   color: #ffffff;
   font-weight: 700;
+  border: none;
 }
 span:hover {
   cursor: pointer;

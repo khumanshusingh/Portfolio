@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #171717;
   font-family: "Inter", sans-serif;
@@ -14,10 +17,6 @@ body {
   font-family: "DM Serif Display", serif;
   font-weight: 500;
   font-size: 2rem;
-}
-.logo a {
-  color: white;
-  text-decoration: none;
 }
 .navbar {
   display: flex;

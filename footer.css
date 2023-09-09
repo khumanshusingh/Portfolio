@@ -23,7 +23,9 @@ footer ul li a:hover {
   color: #ffffff;
   transition: 0.3s ease;
 }
-
+footer p {
+  text-align: center;
+}
 hr {
   background-color: #fff;
   padding: 0;

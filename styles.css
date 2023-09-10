@@ -79,8 +79,6 @@ body {
   box-shadow: 0 0 4px rgb(38, 38, 38);
   font-weight: 300;
 }
-
-/* ------------------------- */
 @media (max-width: 760px) {
   .logo {
     font-size: 1.75rem;

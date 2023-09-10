@@ -7,27 +7,11 @@ footer {
   padding: 1rem;
   margin-bottom: 2rem;
 }
-
-footer ul {
-  display: flex;
-  gap: 1rem;
-}
-footer ul li {
-  list-style: none;
-}
-footer ul li a {
-  color: #919294;
-  text-decoration: none;
-}
-footer ul li a:hover {
-  color: #ffffff;
-  transition: 0.3s ease;
-}
 footer p {
   text-align: center;
 }
 hr {
-  background-color: #fff;
+  background-color: #dedddd;
   padding: 0;
   margin: 2rem;
   border: 0;

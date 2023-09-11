@@ -55,16 +55,17 @@
   gap: 0.5rem;
 }
 #project-cta-github {
-  background-color: #2dba4e;
-  color: #ffffff;
-  font-weight: 700;
+  background-color: #ffffff;
+  color: #171717;
+  font-weight: 500;
   border: none;
+  border: 1px solid rgb(64, 64, 64);
 }
 #project-cta-deployment {
-  background-color: rgb(88, 166, 255);
+  background-color: #171717;
   color: #ffffff;
-  font-weight: 700;
-  border: none;
+  font-weight: 500;
+  border: 1px solid rgb(64, 64, 64);
 }
 span:hover {
   cursor: pointer;

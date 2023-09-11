@@ -7,8 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  margin: 0rem 1rem;
+  margin: 1rem 2rem;
 }
 .nav-items ul {
   display: flex;
@@ -31,6 +30,9 @@
 }
 
 @media (max-width: 760px) {
+  .navbar {
+    margin: 0.5rem 1rem;
+  }
   .logo {
     font-size: 1.75rem;
   }

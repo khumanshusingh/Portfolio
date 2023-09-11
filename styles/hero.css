@@ -1,0 +1,67 @@
+.hero h1 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-weight: 400;
+  color: #919294;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.hero h4 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.connect {
+  display: flex;
+  gap: 1rem;
+}
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons img {
+  width: 22px;
+}
+.filter-white {
+  filter: invert(100%) sepia(0%) saturate(7487%) hue-rotate(21deg)
+    brightness(91%) contrast(114%);
+}
+.stack-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.stack-flex span {
+  background-color: rgb(38, 38, 38);
+  border: 1px solid rgb(64, 64, 64);
+  padding: 6px 12px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgb(38, 38, 38);
+  font-weight: 300;
+}
+@media (max-width: 760px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  .hero p {
+    font-size: 0.8rem;
+  }
+  .hero h4 {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+  .stack-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  .stack-flex span {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .social-icons img {
+    width: 15px;
+  }
+}

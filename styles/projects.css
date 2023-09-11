@@ -1,12 +1,6 @@
-.projects {
-  margin-top: 4rem;
-  margin-left: 8rem;
-  margin-right: 8rem;
-  margin-bottom: 2rem;
-}
 .projects h1 {
   font-weight: 400;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .projects p {
@@ -16,10 +10,6 @@
   margin-bottom: 1rem;
 }
 .project-cards {
-  margin-top: 4rem;
-  margin-left: 8rem;
-  margin-right: 8rem;
-  margin-bottom: 4rem;
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -27,8 +17,6 @@
   padding: 1rem 0.5rem;
   border-radius: 4px;
   border: 1px solid rgb(64, 64, 64);
-  box-shadow: 0 8px 32px 0 rgba(9, 11, 41, 0.37);
-  backdrop-filter: blur(7px);
 }
 .project-cards img {
   width: 100%;
@@ -84,12 +72,6 @@ span:hover {
   transition: ease-in-out;
 }
 @media (max-width: 760px) {
-  .projects {
-    margin-top: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
-  }
   .projects h1 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -98,12 +80,6 @@ span:hover {
   .projects p {
     font-size: 0.8rem;
     margin-bottom: 1rem;
-  }
-  .project-cards {
-    margin-top: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
   }
   .project-details {
     gap: 1rem;

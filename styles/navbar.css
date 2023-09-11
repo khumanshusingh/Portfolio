@@ -1,0 +1,43 @@
+.logo {
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0rem 1rem;
+}
+.nav-items ul {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-items ul li {
+  list-style: none;
+  font-size: 1rem;
+}
+.nav-items ul li a {
+  text-decoration: none;
+  color: white;
+}
+#resume-btn a {
+  background-color: #ffffff;
+  color: #171717;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 760px) {
+  .logo {
+    font-size: 1.75rem;
+  }
+  .nav-items ul {
+    gap: 1rem;
+  }
+  .nav-items ul li {
+    font-size: 0.75rem;
+  }
+}
